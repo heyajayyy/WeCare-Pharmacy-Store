@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/explore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="/JavaScript/exolore.js"></script>
+    <title>https://www.We-care.com</title>
+</head>
+<body>
+   
+<div class="header">
+    <div class="logo">
+        <img src="/image/wecare.webp" alt="" width="150px">
+      </div>
+      <div class="menu">
+        <ul>  <a href=""><i class="fa-solid fa-bag-shopping"></i><b>Home</b></a>
+            <a href="/html/about.html"><b>About us</b></a>
+            <a href="/html/HealthTips.html"><b>Health tips</b></a>
+            <a href="/html/contact.html"><b>Contact</b></a>
+        </ul> 
+    </div>
+    <div class="login">
+       <a href="loginpage.html"><b>Login </b><i class="fa-solid fa-right-to-bracket"></i></a>
+    </div>
+    
+</div>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Enter Your Problem..." onkeyup="searchPrescription()">
+    <button onclick="clearSearch()">Clear</button>
+</div>
+<div id="results">
+</div>
+
+    <header class="shop">
+        <h1>Product Shop <i class="fa-solid fa-shop"></i></h1>
+    </header>
+    <main>
+        <section class="category-filter">
+            <button class="filter-button" data-category="all">All</button>
+            <button class="filter-button" data-category="Medicine">Medicine</button>
+            <button class="filter-button" data-category="Ayurveda">Ayurveda</button>
+            <button class="filter-button" data-category="Skin Care">Skin Care</button>
+        </section>
+        <section class="product-grid">
+            <article class="product" data-category="Medicine">
+                <img src="/image/par.med.jpg" alt="Medicine">
+                <h2>PARACETAMOL </h2>
+                <p class="description">Pacimol 500 Tablet 15's</p>
+                <p class="price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+            <article class="product" data-category="Ayurveda">
+                <img src="/image/Chyawanprakash.jpg" alt="Ayurveda">
+                <h2>Chyawanprakash</h2>
+                <p class="description">Dabur Sugar Free Chyawanprakash, 900 gm</p>
+                <p class="price">$10.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+            <article class="product" data-category="Skin Care">
+                <img src="/image/nivea.jpg" alt="Skin Care">
+                <h2>Nivea cream</h2>
+                <p class="description">Nivea Soft Light Moisturiser Cream 100 ml</p>
+                <p class="price">$13.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+        </section>
+    </main>
+    <div class="container">
+        <h1>Medicine Information List</h1>
+        <ul id="medicineList" class="medicine-list">
+            <li class="medicine-item">
+                <img src="/image/evi0007_1-april.webp" alt="Evion 400" class="medicine-image">
+                <div class="medicine-info">
+                    <h2>Evion 400</h2>
+                    <p><strong>Generic Name:</strong> Levocarnitine</p>
+                    <p><strong>Uses:</strong> Effectively relieves leg cramps and protects muscles from damage caused by exercise.</p>
+                    <p><strong>Dosage:</strong> Evion 400 mg capsules is one capsule per day</p>
+                    <p><strong>Side Effects:</strong> Nausea,
+                        ,Tiredness
+                        ,Headache
+                       and Mild rash</p>
+                </div>
+            </li>
+            <li class="medicine-item">
+                <img src="/image/ibuprofen.jpg" alt="Ibuprofen" class="medicine-image">
+                <div class="medicine-info">
+                    <h2>Ibuprofen</h2>
+                    <p><strong>Generic Name:</strong> Ibuprofen</p>
+                    <p><strong>Uses:</strong> Pain relief, anti-inflammatory, and fever reduction.</p>
+                    <p><strong>Dosage:</strong> 200-400 mg per dose, up to 3 times a day.</p>
+                    <p><strong>Side Effects:</strong> Stomach pain, headache, and dizziness.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section>
+        <div class="info">
+        <h1>EFFORTLESS ONLINE MEDICINE ORDERS AT WE-CARE</h1><br>
+        <p>We-care Pharmacy is your go-to online pharmacy store for all your medicine needs. We also have a range of products in the personal care, baby care, health and nutrition, wellness, and lifestyle categories. Come explore. </p>
+        <ul>
+            <li>Browse through our wide variety of products</li>
+            <li>Add products to your cart and complete the payment. Voila!</li>
+            <li>Your order will be on its way to you.</li>
+        </ul>
+    </div>
+    </section>
+ 
+    
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>We-care is one of India's largest medical stores</p>
+            <p>Email: <a href="">heyajay01@gmail.com</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <img src="/image/google-play-store.webp" alt="" width="100px">
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/html/about.html">About Us</a></li>
+                <li><a href="/html/HealthTips.html">Health tips</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/heyajayyy/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/iamajayyyy_?igsh=MXNha202M2IzZzg2MA==" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100013356903357" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Medical Website. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

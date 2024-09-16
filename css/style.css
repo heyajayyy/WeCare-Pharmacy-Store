@@ -1,0 +1,274 @@
+
+ .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.menu{
+    text-align: center;
+    flex: 1;
+    gap: 10%;
+}
+.menu ul a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(29, 28, 28);
+    font-family: "Montserrat", sans-serif;
+}
+.menu a:hover{
+    color: lightcoral;
+} 
+
+.login a{
+    background-color: #e46a18;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.login  :hover{
+    background-color: #b44800;
+}
+
+.heading{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background: radial-gradient(#ffffff,#93ffc5);
+}
+.detail{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.detail img{
+    max-width: 80%;
+    max-height: 80%;
+    float: right;
+    padding-right: 15%;
+    position: relative;
+
+}
+.detail h1{
+   
+    color: rgb(194, 158, 73);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 10px;
+    
+}
+.detail p{
+    font-family: "Poppins", sans-serif;
+    padding-left: 10px;
+}
+.detail a{
+    display: inline-block;
+    background: linear-gradient(to bottom,  #2c3e50, #58b8c7);
+   
+     color: white;
+     text-decoration: none;
+     text-shadow: #555;
+     padding: 8px 20px;
+     margin: 30px 0;
+     border-radius: 25px;
+     align-items: flex-start;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-grid {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.product img {
+    width: 50%;
+    
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product .description {
+    color: #666;
+    margin: 10px 0;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #173f20;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.banner {
+    background-color:#7c90d8; 
+    color: white;
+    padding: 40px;
+}
+
+.text img{
+  float: right;
+  width: 30%;
+padding-right: 40px;
+
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.explore{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.explore:hover {
+    background-color: #e65c00;
+}
+
+
+footer {
+    position: relative;
+    background-color: rgb(44, 151, 217);
+    padding: 20px 0;
+}
+
+.footer-container {
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    color: black;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color:white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
